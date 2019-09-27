@@ -18,4 +18,8 @@ public interface UserService {
     void updateUserByName(UserInfo userInfo);
 
     void delUser(UserInfo userInfo);
+
+    UserInfo login(UserInfo userInfo);
+
+    UserInfo verify(String userId);
 }
